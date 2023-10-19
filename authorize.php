@@ -14,11 +14,11 @@ try {
 
         # Call the API using the received Authorization code to get the Bearer Access Token.
         $acessTokenResponse = $client->request('POST', 'https://api.webflow.com/oauth/access_token', [
-            'form_params' => [
-                'client_id' => CLIENT_ID,
+            'form_params'       => [
+                'client_id'     => CLIENT_ID,
                 'client_secret' => CLIENT_SECRET,
-                'code' => $code,
-                'grant_type' => GRANT_TYPE
+                'code'          => $code,
+                'grant_type'    => GRANT_TYPE
             ],
         ]);
 
@@ -33,9 +33,9 @@ try {
                 $accessToken = $responseArr['access_token'];
 
                 $authorizedUserResponse = $client->request('GET', 'https://api.webflow.com/v2/token/authorized_by', [
-                    'headers' => [
-                        'accept' => 'application/json',
-                        'authorization' => 'Bearer ' . $accessToken,
+                    'headers'            => [
+                        'accept'         => 'application/json',
+                        'authorization'  => 'Bearer ' . $accessToken,
                     ],
                 ]);
 
