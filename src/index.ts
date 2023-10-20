@@ -16,6 +16,5 @@ document.getElementById("lorem").onsubmit = async (event) => {
 
 const urlParams = new URLSearchParams(window.location.search);
 const myParam = urlParams.get('access_token');
-alert(myParam);
 
 document.getElementById("token_container").innerHTML = myParam;
