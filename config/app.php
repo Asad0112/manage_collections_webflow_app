@@ -20,3 +20,5 @@ define('RESPONSE_TYPE', 'code');
 
 # Default Grant Type.
 define('GRANT_TYPE', 'authorization_code');
+
+define('NG_ROK_URL', 'https://6429-2406-b400-d5-737e-7f45-a4f5-4fa5-d008.ngrok-free.app');
