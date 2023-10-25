@@ -49,13 +49,13 @@ try {
 
 
                 if (!empty($authorizedUserResponseArr)) {
-                    header('Location: '.NG_ROK_URL.'/projects/replace_text_webflow_app/public/?access_token=' . $authorizedUserResponseJson);
+                    header('Location: ' . APP_URL . 'replace_text_webflow_app/public/?access_token=' . $authorizedUserResponseJson);
                 } else {
-                    header('Location: '.NG_ROK_URL.'/projects/replace_text_webflow_app/');
+                    header('Location: ' . APP_URL . 'replace_text_webflow_app/');
                 }
             }
         }
     }
 } catch (GuzzleHttp\Exception\ClientException $e) {
-    header('Location: '.NG_ROK_URL.'/projects/replace_text_webflow_app/');
+    header('Location: ' . APP_URL . 'replace_text_webflow_app/');
 }

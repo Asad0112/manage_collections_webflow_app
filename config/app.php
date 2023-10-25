@@ -3,6 +3,9 @@
 # Application's Name
 define('APP_NAME', 'Webflow App in PHP');
 
+# Your application's root URL.
+define('APP_URL', 'https://98ee-2406-b400-d5-737e-338f-c27a-6fff-5889.ngrok-free.app/projects/');
+
 # Your application's Client ID.
 define('CLIENT_ID', 'bd884d8711812f585770de92fdac8ab96a4dcf9dcd4b19fdf7eb4b87c4440e68');
 
@@ -21,4 +24,3 @@ define('RESPONSE_TYPE', 'code');
 # Default Grant Type.
 define('GRANT_TYPE', 'authorization_code');
 
-define('NG_ROK_URL', 'https://6429-2406-b400-d5-737e-7f45-a4f5-4fa5-d008.ngrok-free.app');
