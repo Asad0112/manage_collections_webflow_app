@@ -1,7 +1,7 @@
 
-# replace_text_webflow_app
+# manage_collections_webflow_app
 
-This App is used to validate the user first before installing the application to their site. Upon successful installation of the application, users can select the text in webflow designer that they want to replace with the custom text that this app provides.
+This App is used to read the collections of the multiple sites associated with the workspace. The list page of the application contains the Project collection details of the numerous attached sites.
 
 # Steps to Install
 
