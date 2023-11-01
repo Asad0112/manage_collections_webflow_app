@@ -4,7 +4,7 @@
 define('APP_NAME', 'Manage Collections Webflow App in PHP');
 
 # Your application's root URL.
-define('APP_URL', 'https://b07c-2406-b400-d5-737e-f127-16ee-3edd-15e3.ngrok-free.app/projects/webflow_applications/manage_collections_app/');
+define('APP_URL', 'https://c33d-2406-b400-d5-737e-8c1f-b07-99f1-504.ngrok-free.app/projects/webflow_applications/manage_collections_app/');
 
 # Your application's Client ID.
 define('CLIENT_ID', '6cf70d05ffdea4b21ca10bbc6cc36902108563e8c42844fbc4537447faccda25');
@@ -23,4 +23,3 @@ define('RESPONSE_TYPE', 'code');
 
 # Default Grant Type.
 define('GRANT_TYPE', 'authorization_code');
-
